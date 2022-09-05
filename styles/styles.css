@@ -1,0 +1,78 @@
+html {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 3px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: red;
+}
+
+li {
+    color: orange;
+}
+
+ tag selector 
+p, li {
+    border: 1px solid black;
+}
+
+id selector
+#my-id {
+    color: #000;
+}
+
+class selector
+.my-class {
+    color: #000;
+}
+
+pseudo class
+ul:hover {
+    display: none;
+}
+*/
+
+/* Attribute selector */
+img[src] {
+    height: 100%;
+    width: 100%;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+
+
+
+
+
+
